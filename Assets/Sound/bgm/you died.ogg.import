@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0l4rxxt2t6ja"
+path="res://.godot/imported/you died.ogg-8a61fa8ae7ac86b2af2e1425f33b0e68.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/bgm/you died.ogg"
+dest_files=["res://.godot/imported/you died.ogg-8a61fa8ae7ac86b2af2e1425f33b0e68.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

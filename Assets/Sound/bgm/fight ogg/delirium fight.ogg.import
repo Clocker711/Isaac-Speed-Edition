@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b36bgou3xbw3r"
+path="res://.godot/imported/delirium fight.ogg-8e36d9379405aab13cff9e578d36a7bd.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/bgm/fight ogg/delirium fight.ogg"
+dest_files=["res://.godot/imported/delirium fight.ogg-8e36d9379405aab13cff9e578d36a7bd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

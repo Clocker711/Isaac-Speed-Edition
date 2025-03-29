@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://cwol8wbg4fqql"]
+
+[ext_resource type="Script" uid="uid://4bwu7hnwm4t2" path="res://Scripts/enemy.gd" id="1_4jekx"]
+[ext_resource type="Texture2D" uid="uid://b6deriolfktn1" path="res://Assets/Sprites/monster/025.002_drownedboomfly.png" id="1_yww8s"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jekx"]
+atlas = ExtResource("1_yww8s")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s685e"]
+atlas = ExtResource("1_yww8s")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n6qjc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4jekx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s685e")
+}],
+"loop": true,
+"name": &"default",
+"speed": 4.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4jekx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_s685e"]
+radius = 10.198
+
+[node name="Enemy" type="CharacterBody2D" groups=["monster"]]
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("1_4jekx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_n6qjc")
+autoplay = "default"
+frame_progress = 0.601142
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4jekx")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_s685e")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

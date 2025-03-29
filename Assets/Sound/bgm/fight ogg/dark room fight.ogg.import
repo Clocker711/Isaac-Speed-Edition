@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://4o61d0kvesgo"
+path="res://.godot/imported/dark room fight.ogg-dff220df43790efc5cba0c6e89c8ac0b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/bgm/fight ogg/dark room fight.ogg"
+dest_files=["res://.godot/imported/dark room fight.ogg-dff220df43790efc5cba0c6e89c8ac0b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

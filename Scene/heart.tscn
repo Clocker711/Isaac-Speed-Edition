@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwnjqp281k05v"]
+
+[ext_resource type="Texture2D" uid="uid://cmir4ouiisjcx" path="res://Assets/Sprites/items/ui_hearts.png" id="1_ri2yj"]
+[ext_resource type="Script" uid="uid://ogr3thoe50ag" path="res://Scene/heart.gd" id="2_rqi32"]
+
+[node name="Heart" type="Sprite2D"]
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_ri2yj")
+hframes = 7
+vframes = 4
+region_rect = Rect2(1, 1, 15, 14)
+script = ExtResource("2_rqi32")

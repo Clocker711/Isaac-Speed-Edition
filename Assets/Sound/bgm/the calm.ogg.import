@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://couxww5uwlvil"
+path="res://.godot/imported/the calm.ogg-59da97229a3b64e47c77e1150acf464a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/bgm/the calm.ogg"
+dest_files=["res://.godot/imported/the calm.ogg-59da97229a3b64e47c77e1150acf464a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

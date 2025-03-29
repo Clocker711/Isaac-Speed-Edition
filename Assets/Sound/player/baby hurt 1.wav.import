@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ve7a3n0qb1lv"
+path="res://.godot/imported/baby hurt 1.wav-cd61a75a9d495d32f691d6c203d6d70f.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/player/baby hurt 1.wav"
+dest_files=["res://.godot/imported/baby hurt 1.wav-cd61a75a9d495d32f691d6c203d6d70f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://d0fu3clr6g45i"]
+
+[ext_resource type="Texture2D" uid="uid://d0bjql5gy5q4d" path="res://Assets/Sprites/items/golden_penny.png" id="1_y73c7"]
+[ext_resource type="Script" uid="uid://cndift1f3abi1" path="res://Scripts/coin.gd" id="2_jea4o"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jea4o"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(0, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_byqvs"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(32, 0, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hncfd"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(0, 16, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_36o68"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(32, 16, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yekfk"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(0, 32, 32, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4l3rx"]
+atlas = ExtResource("1_y73c7")
+region = Rect2(32, 32, 32, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1owa6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jea4o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_byqvs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hncfd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_36o68")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yekfk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4l3rx")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jea4o"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_1owa6")
+autoplay = "default"
+frame_progress = 0.941705
+script = ExtResource("2_jea4o")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_jea4o")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

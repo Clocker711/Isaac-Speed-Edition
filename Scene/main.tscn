@@ -1,0 +1,329 @@
+[gd_scene load_steps=13 format=4 uid="uid://bddu4lfd866dx"]
+
+[ext_resource type="PackedScene" uid="uid://r4d665gh34sp" path="res://Scene/player.tscn" id="1_f6udf"]
+[ext_resource type="Texture2D" uid="uid://dhtcasapdcalg" path="res://Assets/Sprites/Tiles/0b_shop_nfloor.png" id="2_sblpm"]
+[ext_resource type="Script" uid="uid://cb1yqukjx83l7" path="res://Scripts/dead_zone.gd" id="3_2wwxx"]
+[ext_resource type="Script" uid="uid://bqc07q48wi4rw" path="res://Scripts/spawn_line.gd" id="3_r34rm"]
+[ext_resource type="PackedScene" uid="uid://cwguxvh1tf1i5" path="res://Scene/status_ui.tscn" id="5_3amdw"]
+[ext_resource type="PackedScene" uid="uid://cwol8wbg4fqql" path="res://Scene/enemy.tscn" id="6_1xcnr"]
+[ext_resource type="AudioStream" uid="uid://cgvyicvc0yqrt" path="res://Assets/Sound/bgm/retro beats 8-6-14.ogg" id="7_ow1sv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3amdw"]
+size = Vector2(54, 720)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r34rm"]
+texture = ExtResource("2_sblpm")
+texture_region_size = Vector2i(26, 26)
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+16:0/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+16:2/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+16:6/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+15:7/0 = 0
+16:7/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+16:8/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+16:9/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+16:10/0 = 0
+13:11/0 = 0
+14:11/0 = 0
+15:11/0 = 0
+16:11/0 = 0
+17:11/0 = 0
+18:11/0 = 0
+19:11/0 = 0
+20:11/0 = 0
+13:12/0 = 0
+14:12/0 = 0
+15:12/0 = 0
+16:12/0 = 0
+17:12/0 = 0
+18:12/0 = 0
+19:12/0 = 0
+20:12/0 = 0
+0:13/0 = 0
+1:13/0 = 0
+2:13/0 = 0
+3:13/0 = 0
+4:13/0 = 0
+5:13/0 = 0
+6:13/0 = 0
+7:13/0 = 0
+8:13/0 = 0
+9:13/0 = 0
+10:13/0 = 0
+11:13/0 = 0
+12:13/0 = 0
+13:13/0 = 0
+14:13/0 = 0
+15:13/0 = 0
+16:13/0 = 0
+17:13/0 = 0
+18:13/0 = 0
+19:13/0 = 0
+20:13/0 = 0
+0:14/0 = 0
+1:14/0 = 0
+2:14/0 = 0
+3:14/0 = 0
+4:14/0 = 0
+5:14/0 = 0
+6:14/0 = 0
+7:14/0 = 0
+8:14/0 = 0
+9:14/0 = 0
+10:14/0 = 0
+11:14/0 = 0
+12:14/0 = 0
+13:14/0 = 0
+14:14/0 = 0
+15:14/0 = 0
+16:14/0 = 0
+17:14/0 = 0
+18:14/0 = 0
+19:14/0 = 0
+20:14/0 = 0
+0:15/0 = 0
+1:15/0 = 0
+2:15/0 = 0
+3:15/0 = 0
+4:15/0 = 0
+5:15/0 = 0
+6:15/0 = 0
+7:15/0 = 0
+8:15/0 = 0
+9:15/0 = 0
+10:15/0 = 0
+11:15/0 = 0
+12:15/0 = 0
+13:15/0 = 0
+14:15/0 = 0
+15:15/0 = 0
+16:15/0 = 0
+17:15/0 = 0
+18:15/0 = 0
+19:15/0 = 0
+20:15/0 = 0
+0:16/0 = 0
+1:16/0 = 0
+2:16/0 = 0
+3:16/0 = 0
+4:16/0 = 0
+5:16/0 = 0
+6:16/0 = 0
+7:16/0 = 0
+8:16/0 = 0
+9:16/0 = 0
+10:16/0 = 0
+11:16/0 = 0
+12:16/0 = 0
+13:16/0 = 0
+14:16/0 = 0
+15:16/0 = 0
+16:16/0 = 0
+17:16/0 = 0
+18:16/0 = 0
+19:16/0 = 0
+20:16/0 = 0
+0:17/0 = 0
+1:17/0 = 0
+2:17/0 = 0
+3:17/0 = 0
+4:17/0 = 0
+5:17/0 = 0
+6:17/0 = 0
+7:17/0 = 0
+8:17/0 = 0
+9:17/0 = 0
+10:17/0 = 0
+11:17/0 = 0
+12:17/0 = 0
+13:17/0 = 0
+14:17/0 = 0
+15:17/0 = 0
+16:17/0 = 0
+17:17/0 = 0
+18:17/0 = 0
+19:17/0 = 0
+20:17/0 = 0
+0:18/0 = 0
+1:18/0 = 0
+2:18/0 = 0
+3:18/0 = 0
+4:18/0 = 0
+5:18/0 = 0
+6:18/0 = 0
+7:18/0 = 0
+8:18/0 = 0
+9:18/0 = 0
+10:18/0 = 0
+11:18/0 = 0
+12:18/0 = 0
+13:18/0 = 0
+14:18/0 = 0
+15:18/0 = 0
+16:18/0 = 0
+17:18/0 = 0
+18:18/0 = 0
+19:18/0 = 0
+20:18/0 = 0
+0:19/0 = 0
+1:19/0 = 0
+2:19/0 = 0
+3:19/0 = 0
+4:19/0 = 0
+5:19/0 = 0
+6:19/0 = 0
+7:19/0 = 0
+8:19/0 = 0
+9:19/0 = 0
+10:19/0 = 0
+11:19/0 = 0
+12:19/0 = 0
+13:19/0 = 0
+14:19/0 = 0
+15:19/0 = 0
+16:19/0 = 0
+17:19/0 = 0
+18:19/0 = 0
+19:19/0 = 0
+20:19/0 = 0
+0:20/0 = 0
+1:20/0 = 0
+2:20/0 = 0
+3:20/0 = 0
+4:20/0 = 0
+5:20/0 = 0
+6:20/0 = 0
+7:20/0 = 0
+8:20/0 = 0
+9:20/0 = 0
+10:20/0 = 0
+11:20/0 = 0
+12:20/0 = 0
+13:20/0 = 0
+14:20/0 = 0
+15:20/0 = 0
+16:20/0 = 0
+17:20/0 = 0
+18:20/0 = 0
+19:20/0 = 0
+20:20/0 = 0
+0:0/size_in_atlas = Vector2i(5, 7)
+0:0/0 = 0
+5:0/size_in_atlas = Vector2i(5, 7)
+5:0/0 = 0
+0:7/size_in_atlas = Vector2i(13, 3)
+0:7/0 = 0
+0:10/size_in_atlas = Vector2i(13, 3)
+0:10/0 = 0
+2:25/0 = 0
+0:337/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2wwxx"]
+tile_size = Vector2i(26, 26)
+sources/0 = SubResource("TileSetAtlasSource_r34rm")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r34rm"]
+size = Vector2(1175, 137)
+
+[sub_resource type="Curve2D" id="Curve2D_sblpm"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 422, -33, 0, 0, 0, 0, 727, -30)
+}
+point_count = 2
+
+[node name="Main" type="Node2D"]
+position = Vector2(-25, 5)
+
+[node name="Border" type="Node" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Border"]
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Border/StaticBody2D"]
+position = Vector2(266, 359)
+shape = SubResource("RectangleShape2D_3amdw")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Border/StaticBody2D"]
+position = Vector2(846, 360)
+shape = SubResource("RectangleShape2D_3amdw")
+
+[node name="Tile" type="Node2D" parent="."]
+position = Vector2(584, 521)
+
+[node name="back" type="TileMapLayer" parent="Tile"]
+position = Vector2(-5, -3)
+tile_map_data = PackedByteArray("AAD9//z/AAAAAAAAAAACAPz/AAAAAAAAAAAHAPz/AAAAAAAAAAD4//z/AAAFAAAAAAD4/wMAAAAFAAAAAAD9/wMAAAAFAAAAAAACAAMAAAAFAAAAAAAHAAMAAAAFAAAAAAD4//X/AAAFAAAAAAD9//X/AAAFAAAAAAACAPX/AAAFAAAAAAAHAPX/AAAFAAAAAAD4/+7/AAAFAAAAAAD9/+7/AAAFAAAAAAACAO7/AAAFAAAAAAAHAO7/AAAFAAAAAAA=")
+tile_set = SubResource("TileSet_2wwxx")
+
+[node name="Player" parent="." instance=ExtResource("1_f6udf")]
+unique_name_in_owner = true
+position = Vector2(583, 523)
+
+[node name="DeadZone" type="Area2D" parent="."]
+collision_mask = 7
+script = ExtResource("3_2wwxx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DeadZone"]
+position = Vector2(584, 791)
+shape = SubResource("RectangleShape2D_r34rm")
+
+[node name="SpawnLine" type="Path2D" parent="."]
+curve = SubResource("Curve2D_sblpm")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="SpawnLine"]
+position = Vector2(422, -33)
+rotation = 0.00983575
+loop = false
+script = ExtResource("3_r34rm")
+
+[node name="SpwanTimer" type="Timer" parent="SpawnLine"]
+autostart = true
+
+[node name="StatusUI" parent="." instance=ExtResource("5_3amdw")]
+position = Vector2(1, 0)
+
+[node name="Enemy" parent="." instance=ExtResource("6_1xcnr")]
+position = Vector2(466, 507)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_ow1sv")
+volume_db = -19.904
+autoplay = true
+parameters/looping = true
+
+[connection signal="body_entered" from="DeadZone" to="DeadZone" method="_on_body_entered"]

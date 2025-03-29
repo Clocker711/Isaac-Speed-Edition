@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dfyxvh2hthbpd"
+path="res://.godot/imported/chest fight.ogg-20dc0a2f02f69684f4fcb7e6a79e7a27.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/bgm/fight ogg/chest fight.ogg"
+dest_files=["res://.godot/imported/chest fight.ogg-20dc0a2f02f69684f4fcb7e6a79e7a27.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

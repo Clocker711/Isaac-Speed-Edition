@@ -1,0 +1,74 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1743260863
+icon.svg::CompressedTexture2D/CompressedTexture2D::4077166641822177396::1743176307::1743176317::1::::<><><>0<>0<>4261f7918550646f457b518e23a18afe<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1743223900::0::1::::<><><>0<>0<><>::
+::res://Assets/::1743235790
+::res://Assets/Font/::1743235803
+inconsolata-bold.ttf::FontFile/FontFile::2860949823084075695::1740407536::1743235803::1::::<><><>0<>0<>4ea1c2fed99a76e32c13b516453187dc<>res://.godot/imported/inconsolata-bold.ttf-74be9bf1bf42566c88296de4269d392a.fontdata::
+::res://Assets/Sound/::1743260013
+::res://Assets/Sound/bgm/::1743260683
+ambush.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4202222460068081419::1740407520::1743260267::1::::<><><>0<>0<>61e4829625d64ebee1ef6c6f52ae65f4<>res://.godot/imported/ambush.ogg-3dfe4c7c7c955b2fdf8f08a15b30fdd2.oggvorbisstr::
+retro beats 8-6-14.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::5238797993840120677::1740407521::1743260267::1::::<><><>0<>0<>9364423fc556522e886cfdc5ad37712f<>res://.godot/imported/retro beats 8-6-14.ogg-bcb447e3023fe3e25456f2ef4e31dd7a.oggvorbisstr::
+the calm.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::5798209714495787815::1740407521::1743260683::1::::<><><>0<>0<>6de474f16e09dd711d023977c3e31431<>res://.godot/imported/the calm.ogg-59da97229a3b64e47c77e1150acf464a.oggvorbisstr::
+title screen.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4780077053783445509::1740407522::1743260267::1::::<><><>0<>0<>816f53da7195f386c26e21c32ee2479e<>res://.godot/imported/title screen.ogg-0435e6a75e052136254631699fee10df.oggvorbisstr::
+you died.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::8938483693079072918::1740407522::1743260267::1::::<><><>0<>0<>2271531aebe83b8404235458aefafcfc<>res://.godot/imported/you died.ogg-8a61fa8ae7ac86b2af2e1425f33b0e68.oggvorbisstr::
+::res://Assets/Sound/bgm/fight ogg/::1743260267
+basic boss fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::836758423580894917::1740407520::1743260267::1::::<><><>0<>0<>295e617ba846c83730d4db429aca958a<>res://.godot/imported/basic boss fight.ogg-377be4e758bdde4d12355bade9465b08.oggvorbisstr::
+chest fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::7561185737589416589::1740407520::1743260267::1::::<><><>0<>0<>4d66bd04f053455c65dde83151da1021<>res://.godot/imported/chest fight.ogg-20dc0a2f02f69684f4fcb7e6a79e7a27.oggvorbisstr::
+dark room fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::2066306608149820050::1740407557::1743260267::1::::<><><>0<>0<>6840c409a7e117d5583d24218d2dc1eb<>res://.godot/imported/dark room fight.ogg-dff220df43790efc5cba0c6e89c8ac0b.oggvorbisstr::
+delirium fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::4415776215216040345::1740407557::1743260267::1::::<><><>0<>0<>7684c043da10da9a9728233ea3c10475<>res://.godot/imported/delirium fight.ogg-8e36d9379405aab13cff9e578d36a7bd.oggvorbisstr::
+isaac fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::7477866753047454504::1740407520::1743260267::1::::<><><>0<>0<>6d7255b80841f3f06c4496e7f91fce6f<>res://.godot/imported/isaac fight.ogg-b8abc831c508198fe5b9e01edb0cee50.oggvorbisstr::
+mom fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::8089893749726836634::1740407520::1743260267::1::::<><><>0<>0<>28f59f31f488296404d0cfcd6cbfd005<>res://.godot/imported/mom fight.ogg-1133c0ec24af8b726999862a4ec7c939.oggvorbisstr::
+satan fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::7917417371878349835::1740407520::1743260267::1::::<><><>0<>0<>3e860ef08d2bea716214664d70ae03c0<>res://.godot/imported/satan fight.ogg-0b26a0a161ce8d6fcfdb159a72c0c439.oggvorbisstr::
+womb fight.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::3008494431682058676::1740407520::1743260267::1::::<><><>0<>0<>4353e39e90103aa91fb707ff8c7868d5<>res://.godot/imported/womb fight.ogg-baaa15e5c3ac15754e987280d990d2f1.oggvorbisstr::
+::res://Assets/Sound/player/::1743253454
+baby hurt 1.wav::AudioStreamWAV/AudioStreamWAV::1484167663077044187::1740407535::1743253454::1::::<><><>0<>0<>5ba97371ebcd94eaee13749fce1402bb<>res://.godot/imported/baby hurt 1.wav-cd61a75a9d495d32f691d6c203d6d70f.sample::
+baby hurt 2.wav::AudioStreamWAV/AudioStreamWAV::7775265841233878965::1740407535::1743253454::1::::<><><>0<>0<>e0d5938468f994ac235bb464cc2cebf7<>res://.godot/imported/baby hurt 2.wav-84daa4de57085d91d7003e297672c05f.sample::
+baby hurt 3.wav::AudioStreamWAV/AudioStreamWAV::8326849630134005166::1740407535::1743253454::1::::<><><>0<>0<>8ca1429d7a5da25d5dbc6e76da27ade9<>res://.godot/imported/baby hurt 3.wav-c01bfb4c6eb1ec886d1a7e1162b331dd.sample::
+derp 0.wav::AudioStreamWAV/AudioStreamWAV::3317612383795751382::1740407535::1743253454::1::::<><><>0<>0<>00d96517b6c13074a8f6cf9254d4195d<>res://.godot/imported/derp 0.wav-8027ab8afd33a0b028fc91500fb11bca.sample::
+derp 1.wav::AudioStreamWAV/AudioStreamWAV::7120953654644289238::1740407535::1743253454::1::::<><><>0<>0<>810d2c659529f1b1cb8adfdf0f0dd627<>res://.godot/imported/derp 1.wav-cdeba9114e03603ef3cd4d4a4360892e.sample::
+hurt grunt 1.wav::AudioStreamWAV/AudioStreamWAV::7389015312441955735::1740407535::1743253454::1::::<><><>0<>0<>580bac0889dcd567767317cc3d2bf86a<>res://.godot/imported/hurt grunt 1.wav-dcd7498d8631879e0b96eb446ba86637.sample::
+hurt grunt 2.wav::AudioStreamWAV/AudioStreamWAV::837686845188239716::1740407535::1743253454::1::::<><><>0<>0<>81487ea19845a972b7feffaa136d03d5<>res://.godot/imported/hurt grunt 2.wav-7e1a5a0d07ae98a4320a6026ba874cf2.sample::
+hurt grunt .wav::AudioStreamWAV/AudioStreamWAV::7364757645162671579::1740407535::1743253454::1::::<><><>0<>0<>1b45d89efc9c8a247cd68f4a2e960cb3<>res://.godot/imported/hurt grunt .wav-18ed6fbf0df64ff5bfe71659f46bb08a.sample::
+isaac dies new 1.wav::AudioStreamWAV/AudioStreamWAV::6204006079192884761::1740407535::1743253454::1::::<><><>0<>0<>082b8d661f44bf0ae1ed1e82489fb968<>res://.godot/imported/isaac dies new 1.wav-5bda929747f1b8eb01f7dc7dba5faf3e.sample::
+isaac dies new 2.wav::AudioStreamWAV/AudioStreamWAV::7472694663999982375::1740407535::1743253454::1::::<><><>0<>0<>966ff02b9f905eef0d112710f5891fa8<>res://.godot/imported/isaac dies new 2.wav-7101a043043ad0e11ee540f7a18a7779.sample::
+isaac dies new.wav::AudioStreamWAV/AudioStreamWAV::773779094628253254::1740407535::1743253454::1::::<><><>0<>0<>3cc50e23d3fbe648a5cf39c180a9ffaf<>res://.godot/imported/isaac dies new.wav-dae8fd6d7569db1d2fd42410dd7ddee6.sample::
+::res://Assets/Sprites/::1743213400
+::res://Assets/Sprites/blocks/::1743176764
+grid_poop.png::CompressedTexture2D/CompressedTexture2D::91971852805372796::1740407519::1743176764::1::::<><><>0<>0<>0f3cb8e427a9a4c8d05f8abcec38cb53<>res://.godot/imported/grid_poop.png-0e402bc399d73bbb697cbebdc22dce14.ctex::
+rocks_basement.png::CompressedTexture2D/CompressedTexture2D::833511136300981196::1740407556::1743176764::1::::<><><>0<>0<>c00ae8fcba4fdbc0a38e80e8b55b1b0e<>res://.godot/imported/rocks_basement.png-af93f1375d3baa68f09661ee34f194fb.ctex::
+::res://Assets/Sprites/character/::1743176764
+character_001_isaac.png::CompressedTexture2D/CompressedTexture2D::3309470670183207819::1740407533::1743176764::1::::<><><>0<>0<>573e42b4bfdac8422a1873a31f03056a<>res://.godot/imported/character_001_isaac.png-ee2db429d2468034c09a3c35e9c605d7.ctex::
+::res://Assets/Sprites/items/::1743236950
+bulletatlas.png::CompressedTexture2D/CompressedTexture2D::1338911055803772848::1740407544::1743176764::1::::<><><>0<>0<>1a3d6e4c5ead27ee88e33d0a38e17a41<>res://.godot/imported/bulletatlas.png-e36121a8c0bf5852a6fe71cc5a5862ad.ctex::
+golden_penny.png::CompressedTexture2D/CompressedTexture2D::8916623169828416333::1740407549::1743236950::1::::<><><>0<>0<>498a75884e6045eeac88f9cf7b36cecd<>res://.godot/imported/golden_penny.png-c862ac53becdf279f4e16be069dbba9e.ctex::
+hudpickups.png::CompressedTexture2D/CompressedTexture2D::2439819287062186246::1740407557::1743236137::1::::<><><>0<>0<>ceb6799f16384ca1ecf88633003e994f<>res://.godot/imported/hudpickups.png-aa2f45f94a4ae5e16d7ac6cc41b24d85.ctex::
+ui_hearts.png::CompressedTexture2D/CompressedTexture2D::5632707256573223183::1740407557::1743176764::1::::<><><>0<>0<>ce350bf1ea23761d9341fe000036c6f4<>res://.godot/imported/ui_hearts.png-148a67c232f04b77f8c92f84c5e85e68.ctex::
+::res://Assets/Sprites/monster/::1743213411
+025.002_drownedboomfly.png::CompressedTexture2D/CompressedTexture2D::4568741638522683168::1740407550::1743213411::1::::<><><>0<>0<>a83cdfb98935a3bf20c1ea3db28474b5<>res://.godot/imported/025.002_drownedboomfly.png-0f809752523a5043372347563cde5346.ctex::
+::res://Assets/Sprites/Tiles/::1743176764
+0b_shop_nfloor.png::CompressedTexture2D/CompressedTexture2D::7689929513964120476::1740407533::1743176764::1::::<><><>0<>0<>a0802d9cf1aed32cd67701891bd20b70<>res://.godot/imported/0b_shop_nfloor.png-b75148e72b91107155dbbdbeed9e9221.ctex::
+planetarium_starfield_1.png::CompressedTexture2D/CompressedTexture2D::1904480416129751116::1740407551::1743176764::1::::<><><>0<>0<>afd109f6fe5121d42085159b9c96dd8c<>res://.godot/imported/planetarium_starfield_1.png-9012146a55f9628ef400eb6f5e3e1314.ctex::
+tiles_itemdungeon.png::CompressedTexture2D/CompressedTexture2D::8876136575081458696::1740407519::1743176764::1::::<><><>0<>0<>d19e19ccb435b90d80d2b2b767083779<>res://.godot/imported/tiles_itemdungeon.png-b2116f5f7ab552c213994b99c4ce12ad.ctex::
+tiles_itemdungeon_gideon.png::CompressedTexture2D/CompressedTexture2D::2264213995367576835::1740407556::1743176764::1::::<><><>0<>0<>5bd5fcaed3190eb792026df45304c150<>res://.godot/imported/tiles_itemdungeon_gideon.png-e48502e8d3dec3631e68cceada37027f.ctex::
+tiles_rotgut.png::CompressedTexture2D/CompressedTexture2D::6518209789645101144::1740407556::1743176764::1::::<><><>0<>0<>6c6efdd498dc9b1481abe73e218f7514<>res://.godot/imported/tiles_rotgut.png-da5447ae2d8ab49a58e209423460c529.ctex::
+::res://Scene/::1743260812
+bullet.tscn::PackedScene::7833185169282449712::1743260798::0::1::::<><><>0<>0<><>::uid://bglhlskjpesl4::::res://Scripts/bullet.gd<>uid://tctw056geg61::::res://Assets/Sprites/items/bulletatlas.png
+Coin.tscn::PackedScene::8925569495738725880::1743260798::0::1::::<><><>0<>0<><>::uid://d0bjql5gy5q4d::::res://Assets/Sprites/items/golden_penny.png<>uid://cndift1f3abi1::::res://Scripts/coin.gd
+enemy.tscn::PackedScene::6346625191469133539::1743260798::0::1::::<><><>0<>0<><>::uid://4bwu7hnwm4t2::::res://Scripts/enemy.gd<>uid://b6deriolfktn1::::res://Assets/Sprites/monster/025.002_drownedboomfly.png
+global_data.tscn::PackedScene::5736768088877548422::1743260798::0::1::::<><><>0<>0<><>::uid://w53eqetbgahp::::res://Scripts/global_data.gd
+heart.gd::GDScript/GDScript::996113277963111962::1743231360::0::1::::<>Sprite2D<><>0<>0<><>::
+heart.tscn::PackedScene::8730829378650677317::1743260798::0::1::::<><><>0<>0<><>::uid://cmir4ouiisjcx::::res://Assets/Sprites/items/ui_hearts.png<>uid://ogr3thoe50ag::::res://Scene/heart.gd
+main.tscn::PackedScene::2604447061410482209::1743260812::0::1::::<><><>0<>0<><>::uid://r4d665gh34sp::::res://Scene/player.tscn<>uid://dhtcasapdcalg::::res://Assets/Sprites/Tiles/0b_shop_nfloor.png<>uid://cb1yqukjx83l7::::res://Scripts/dead_zone.gd<>uid://bqc07q48wi4rw::::res://Scripts/spawn_line.gd<>uid://cwguxvh1tf1i5::::res://Scene/status_ui.tscn<>uid://cwol8wbg4fqql::::res://Scene/enemy.tscn<>uid://cgvyicvc0yqrt::::res://Assets/Sound/bgm/retro beats 8-6-14.ogg
+player.tscn::PackedScene::1253316482154723703::1743260798::0::1::::<><><>0<>0<><>::uid://bnfeq7f3gklk2::::res://Assets/Sprites/character/character_001_isaac.png<>uid://c48056jswtsfw::::res://Scripts/player.gd<>uid://cunjcrhahptt6::::res://Assets/Sound/player/isaac dies new 1.wav<>uid://ddjkadcbv5n1p::::res://Assets/Sound/player/hurt grunt 1.wav
+status_ui.tscn::PackedScene::6330638722073337326::1743260798::0::1::::<><><>0<>0<><>::uid://by8x5obyjdwxc::::res://Scripts/status_ui.gd<>uid://ba04p5cwv1k1k::::res://Assets/Sprites/items/hudpickups.png<>uid://bg04op8vrst4j::::res://Assets/Font/inconsolata-bold.ttf
+::res://Scripts/::1743259773
+bullet.gd::GDScript/GDScript::2830707524795761035::1743248224::0::1::::<>Node2D<><>0<>0<><>::
+coin.gd::GDScript::5691985171227622158::1743259115::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
+dead_zone.gd::GDScript/GDScript::4898190879514693534::1743220360::0::1::::<>Area2D<><>0<>0<><>::
+enemy.gd::GDScript/GDScript::2038914025157360309::1743244752::0::1::::<>CharacterBody2D<><>0<>0<><>::
+global_data.gd::GDScript::1607793959049251741::1743259390::0::1::::<>Node<><>0<>0<><>::
+label.gd::GDScript/GDScript::8280275422205223276::1743238725::0::1::::<>RefCounted<><>0<>0<><>::
+player.gd::GDScript::6878015440384521344::1743259773::0::1::::<>CharacterBody2D<><>0<>0<><>::
+spawn_line.gd::GDScript/GDScript::3515146894335904332::1743251341::0::1::::<>PathFollow2D<><>0<>0<><>::
+status_ui.gd::GDScript/GDScript::4140528199514954192::1743238756::0::1::::<>Node2D<><>0<>0<><>::
