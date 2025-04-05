@@ -8,7 +8,7 @@
 script = ExtResource("1_rx0ba")
 
 [node name="HP" type="Marker2D" parent="."]
-position = Vector2(872, 29)
+position = Vector2(923, 29)
 
 [node name="Coins" type="Node2D" parent="."]
 position = Vector2(47, 29)
@@ -27,3 +27,7 @@ offset_bottom = 14.0
 theme_override_fonts/font = ExtResource("3_ss5fu")
 theme_override_font_sizes/font_size = 16
 text = "00"
+
+[node name="bullet" type="Label" parent="Coins"]
+offset_right = 40.0
+offset_bottom = 23.0

@@ -1,6 +1,8 @@
 extends AnimatedSprite2D
 var direction
 var speed = 500
+var death_state = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	name="coin"
@@ -18,7 +20,9 @@ func move(target,delta):
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	if body.name =="Player":
+	if body.name =="Player" and not death_state:
 		body.Coin_Num +=1
-		queue_free()
+		$AudioStreamPlayer2D.play()
+		death_state = true
+		Global.queue_aftersound(self)
 		

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1wmmga5v37mt"
+path="res://.godot/imported/fly cough 2.wav-3b8901b1a68909f7b146738a2b6c1dc6.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/monster/fly cough 2.wav"
+dest_files=["res://.godot/imported/fly cough 2.wav-3b8901b1a68909f7b146738a2b6c1dc6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
